@@ -1,0 +1,66 @@
+
+#root {
+  width: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f6fb;
+  color: #243047;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.hero {
+  background: linear-gradient(135deg, #232f3e, #5b4bba);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 44px;
+  margin: 0 0 10px;
+}
+
+.hero h2 {
+  font-size: 28px;
+  margin: 0 0 20px;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+.hero span {
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.content {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 32px;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 5px 20px #00000010;
+  line-height: 1.7;
+}
+
+.content h2 {
+  color: #5b4bba;
+}
+
+footer {
+  text-align: center;
+  padding: 24px;
+  color: #596579;
+}
